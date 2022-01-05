@@ -104,13 +104,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: <repository url>
-  branch: [branch]
-  token: ''
-  message: [message]
-  name: [git user]
-  email: [git email]
-  extend_dirs: [extend directory]
-  ignore_hidden: false # default is true
-  ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
-'
+  repo: https://github.com/ckamen/ckamen.github.io.git
+  branch: master
+  token: ${GIT_TOKEN_CKM}
+  message: test
