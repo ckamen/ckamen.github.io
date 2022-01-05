@@ -105,6 +105,6 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/ckamen/ckamen.github.io.git
-  branch: master
+  branch: gh_pages
   token: ${GIT_TOKEN_CKM}
   message: test
